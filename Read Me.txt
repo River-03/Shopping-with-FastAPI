@@ -1,0 +1,71 @@
+```markdown
+# 🛒 Shopping List API
+
+A simple and elegant RESTful API for managing your shopping list using **FastAPI**.  
+This project is perfect for practicing modern Python web development and working with REST APIs.
+
+---
+
+## 🚀 Features
+
+- Add items to your shopping list 🧾
+- View current list with count 📋
+- Remove individual items 🗑️
+- Clear the entire list 🧹
+- Health check endpoint ✅
+- Plain text responses for CLI-friendly output 💻
+
+---
+
+## 🧰 Requirements
+
+- Python 3.9+
+- FastAPI
+- Uvicorn
+
+Install with pip:
+
+```bash
+pip install fastapi uvicorn
+```
+
+---
+
+## ▶️ How to Run
+
+Start the server:
+
+```bash
+uvicorn main:app --reload
+```
+
+Visit your browser at:
+
+- Swagger UI: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+- ReDoc: [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
+
+---
+
+## 📬 Example Usage
+
+### ➕ Add Item
+
+**POST** `/items`
+
+```json
+{
+  "name": "Milk"
+}
+``
+---
+
+## 🩺 Health Check
+
+**GET** `/health`
+
+---
+
+## 📦 License
+
+MIT License
+```
